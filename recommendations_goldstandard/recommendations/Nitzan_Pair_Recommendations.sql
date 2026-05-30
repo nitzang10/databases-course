@@ -1,11 +1,3 @@
--- ============================================================
--- Movie recommendations - Method (c): content-based recommender
--- Seeds = Nitzan's >=8 films; targets = unrated look-alikes found via
--- shared actors (roles) + shared director (movies_directors) + shared
--- genre (movies_genres) in imdb_ijs.  100 strong recs (8-10) + 100
--- reasonable-but-weak recs (1-5).  Author: Nitzan Gavish.
--- ============================================================
-
 insert into imdb_ijs.movies_recommendations
 values (
   121386,  -- 121386 fugitive, the 1993
